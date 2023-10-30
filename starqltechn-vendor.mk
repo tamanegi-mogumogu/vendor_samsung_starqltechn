@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0-service.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@3.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/starqltechn/proprietary/vendor/lib/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
@@ -141,7 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@2.1.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.gnss@3.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0-service.so \
     vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
-    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so
+    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/samsung/starqltechn/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
