@@ -11,14 +11,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqltechn/proprietary/system/lib/libarcsoft_deflicker_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_deflicker_native.so \
     vendor/samsung/starqltechn/proprietary/system/lib/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc++_shared.so \
     vendor/samsung/starqltechn/proprietary/system/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/samsung/starqltechn/proprietary/system/lib/vndk-29/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/android.hardware.keymaster@3.0.so \
-    vendor/samsung/starqltechn/proprietary/system/lib/vndk-29/android.hardware.keymaster@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-29/android.hardware.keymaster@4.0.so \
     vendor/samsung/starqltechn/proprietary/system/lib64/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.keymaster@3.0.so \
     vendor/samsung/starqltechn/proprietary/system/lib64/android.hardware.keymaster@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.keymaster@4.0.so \
     vendor/samsung/starqltechn/proprietary/system/lib64/libarcsoft_deflicker_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_deflicker_native.so \
     vendor/samsung/starqltechn/proprietary/system/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.fm@1.0.so \
-    vendor/samsung/starqltechn/proprietary/system/lib64/vndk-29/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-29/android.hardware.keymaster@3.0.so \
-    vendor/samsung/starqltechn/proprietary/system/lib64/vndk-29/android.hardware.keymaster@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vndk-29/android.hardware.keymaster@4.0.so \
     vendor/samsung/starqltechn/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/samsung/starqltechn/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/starqltechn/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
