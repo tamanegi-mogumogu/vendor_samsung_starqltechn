@@ -141,3 +141,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     vendor.qti.gnss@3.0-service
+
+# Dolby Atmos
+ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
+PRODUCT_PACKAGES += \
+    libswdap
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/starqltechn/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+endif
